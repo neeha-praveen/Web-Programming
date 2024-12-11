@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color and Images</title>
+    <style>
+        body{
+            background-image: url("https://i.pinimg.com/736x/c3/95/44/c3954438fedca66f0f57c727f5dd236c.jpg");
+            background-repeat: "no-repeat";
+            background-size: cover;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Color and Images</h1>
+    <!--<img src="https://i.pinimg.com/736x/9b/b4/c8/9bb4c86bfde5f9936c29e48afd0cc71c.jpg"/>-->
+    <img src="https://i.pinimg.com/736x/9b/b4/c8/9bb4c86bfde5f9936c29e48afd0cc71c.jpg" usemap="#main_map">
+    <a name="#main_map">
+        <map name="main_map">
+            <area shape="circle" href="https://i.pinimg.com/736x/c3/95/44/c3954438fedca66f0f57c727f5dd236c.jpg" alt="image1" coords="100,100,50"/>
+            <area shape="circle" href="https://i.pinimg.com/736x/c3/95/44/c3954438fedca66f0f57c727f5dd236c.jpg" alt="image2" coords="50,50,25"/>
+        </map>
+    </a>
+</body>
+</html>
